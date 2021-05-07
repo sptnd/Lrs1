@@ -30,8 +30,24 @@ public class Test1 {
         System.out.println(join);
         /*
         repeat 方法
+
+        String repeat="java".repeat(3); //java11提供repeat方法
+        */
+
+        /*
+        不可变字符串
          */
-//        String repeat="java".repeat(3); //java11提供repeat方法
-        //1111111
+        greeting=greeting.substring(0,3)+"p!";
+        System.out.println(greeting);
+
+        /*
+        检测字符串是否相等
+         */
+        if (join.equals(s)){
+            System.out.println("true");
+        }else{
+            System.out.println("false");
+        }
+
     }
 }
