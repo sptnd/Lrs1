@@ -32,6 +32,6 @@ public class Test1 {
         repeat 方法
          */
 //        String repeat="java".repeat(3); //java11提供repeat方法
-        //11
+        //1111111
     }
 }
