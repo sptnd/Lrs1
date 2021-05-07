@@ -1,3 +1,8 @@
+import javafx.scene.shape.Path;
+
+import java.nio.charset.StandardCharsets;
+import java.util.Scanner;
+
 import static java.lang.String.join;
 
 /**
@@ -26,7 +31,7 @@ public class Test1 {
         /*
         界定符 join方法
          */
-        String join=String.join("!","l","r","s");
+        String join= join("!","l","r","s");
         System.out.println(join);
         /*
         repeat 方法
@@ -48,6 +53,15 @@ public class Test1 {
         }else{
             System.out.println("false");
         }
+        /*
+        输入与输出
+         */
+//        Scanner in=new Scanner(System.in);
+//        System.out.println("Who do you like?");
+//        String name=in.nextLine();
+//        System.out.println(name);
 
+//        Scanner in = new Scanner(Path.of("C:\\Users\\699lydsgy\\Desktop\\github.txt"),StandardCharsets.UTF_8);
+        //我也不知道为啥报错了= =
     }
 }
