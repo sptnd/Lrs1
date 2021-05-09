@@ -31,6 +31,27 @@ public class Test3 {
          Arrays类的toString 调用Arrays.toString(a) 返回一个包含数组元素的字符串,[a,a,a,a]
           */
          System.out.println(Arrays.toString(lrs2));
-
+         /*
+         命令行参数
+         String args[]
+          */
+         if(args.length==0||args[0].equals("-h")){
+             System.out.println("Hello");
+         }else if (args[0].equals("-g")){
+             System.out.println("Goodbye,");
+         }
+         for (int i=1;i<args.length;i++){
+             System.out.println(""+args[i]);
+         }
+         System.out.println("!");
+                  /*
+         数组排序
+          */
+        int[] lrs3={5,2,1,5,2};
+        Arrays.sort(lrs3);
+        for (int x:lrs3
+             ) {
+            System.out.println(x);
+        }
+         }
     }
-}
